@@ -1,7 +1,11 @@
+#include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <dirent.h>
+#include "common/err_hdlr.h"
 
-
-int
-main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	DIR		*dp;
 	struct dirent	*dirp;
