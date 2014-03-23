@@ -4,8 +4,6 @@
 #include <errno.h>
 #include <stdarg.h>
 #include "err_hdlr.h"
-#include "err_hdlr.h"
-#include "err_hdlr.h"
 
 static void err_doit(int, int, const char *, va_list);
 
